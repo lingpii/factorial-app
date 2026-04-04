@@ -6,6 +6,14 @@ st.set_page_config(
     layout="centered"
 )
 
+# ─── TITLE ─────────────────────────────────────────────────────────────────────
+
+st.markdown('<div class="pixel-divider">░░░░░░░░░░░░░░░░░░░░</div>', unsafe_allow_html=True)
+st.markdown("<h1> FACTORIAL CALCULATOR</h1>", unsafe_allow_html=True)
+st.markdown('<div class="pixel-divider">░░░░░░░░░░░░░░░░░░░░</div>', unsafe_allow_html=True)
+
+
+
 # Body theme (background, font)
 st.markdown("""
 <style>
@@ -94,11 +102,6 @@ input[type="number"] {
 }
 </style>
 """, unsafe_allow_html=True)
-
-# ─── TITLE ─────────────────────────────────────────────────────────────────────
-st.markdown('<div class="pixel-divider">░░░░░░░░░░░░░░░░░░░░</div>', unsafe_allow_html=True)
-st.markdown("<h1> FACTORIAL CALCULATOR</h1>", unsafe_allow_html=True)
-st.markdown('<div class="pixel-divider">░░░░░░░░░░░░░░░░░░░░</div>', unsafe_allow_html=True)
 
 
 def main(): 
