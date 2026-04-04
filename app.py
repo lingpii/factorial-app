@@ -68,7 +68,7 @@ input[type="number"] {
     font-family: 'Press Start 2P', monospace !important;
     font-size: 10px;
     border: none;
-    border-radius: 10px;
+    border-radius: 18px;
     padding: 8px 18px;
     width: 100%;
     cursor: pointer;
