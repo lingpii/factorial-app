@@ -75,6 +75,12 @@ input[type="number"] {
     transition: background 0.2s;
     image-rendering: pixelated;
 }
+.stNumberInput button {
+    background-color: #c9a97a !important;
+    color: #fff8f0 !important;
+    border: none !important;
+    border-radius: 6px !important;
+}
 .stButton > button:hover {
     background-color: #a07850 !important;
 }
