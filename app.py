@@ -58,6 +58,7 @@ input[type="number"] {
 /* Label "Enter a number" */
     .stNumberInput label, p {
         font-family: 'Press Start 2P', monospace !important;
+        color: "#2c1810" !important;
     }
             
 /* Button */
