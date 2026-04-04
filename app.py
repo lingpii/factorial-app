@@ -8,9 +8,9 @@ st.set_page_config(
 
 # ─── TITLE ─────────────────────────────────────────────────────────────────────
 
-st.markdown('<div class="pixel-divider">░░░░░░░░░░░░░░░░░░░░</div>', unsafe_allow_html=True)
+st.markdown('<div class="pixel-divider">°❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･</div>', unsafe_allow_html=True)
 st.markdown("<h1> FACTORIAL CALCULATOR</h1>", unsafe_allow_html=True)
-st.markdown('<div class="pixel-divider">░░░░░░░░░░░░░░░░░░░░</div>', unsafe_allow_html=True)
+st.markdown('<div class="pixel-divider">°❀⋆.ೃ࿔*:･°❀⋆.ೃ࿔*:･</div>', unsafe_allow_html=True)
 
 
 
