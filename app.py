@@ -56,8 +56,9 @@ input[type="number"] {
 }
             
 /* Label "Enter a number" */
-    .stNumberInput label, p {
+    .stNumberInput label p, .stNumberInput label {
         font-family: 'Press Start 2P', monospace !important;
+        color: #d4b896 !important;
     }
             
 /* Button */
@@ -75,7 +76,7 @@ input[type="number"] {
     image-rendering: pixelated;
 }
 .stButton > button:hover {
-    background-color: #a07850;
+    background-color: #a07850 !important;
 }
 
 
