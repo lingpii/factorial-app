@@ -11,6 +11,11 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323:wght@400&display=swap');
 
+ * {
+        font-family: 'Press Start 2P', monospace !important;
+        color: #2c1810 !important;
+    }
+
 /* Background */
 [data-testid="stAppViewContainer"] {
     background-color: #f5f0e8;
@@ -58,8 +63,7 @@ input[type="number"] {
 /* Label "Enter a number" */
     .stNumberInput label, p {
         font-family: 'Press Start 2P', monospace !important;
-        color: "#2c1810" !important;
-    }
+}
             
 /* Button */
 .stButton > button {
