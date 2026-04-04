@@ -60,6 +60,12 @@ input[type="number"] {
         font-family: 'Press Start 2P', monospace !important;
         color: #d4b896 !important;
     }
+
+/* Label "Calculate */
+    .stNumberInput label p, .stNumberInput label {
+        font-family: 'Press Start 2P', monospace !important;
+        color: #ffffff !important;
+    }
             
 /* Button */
 .stButton > button {
