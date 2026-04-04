@@ -110,7 +110,7 @@ def main():
     if st.button("Calculate"): 
         result = fact(number)
         st.markdown(f"""
-    <p style='color: #d4b896 !important; font-family: Press Start 2P, monospace; font-size: 12px;'>
+    <p style='color: #d4b896 !important; font-family: Press Start 2P, monospace; font-size: 20px;'>
         🎉 Result: {number}! = {result}
     </p>
 """, unsafe_allow_html=True)
