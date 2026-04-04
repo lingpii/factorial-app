@@ -84,6 +84,7 @@ input[type="number"] {
 }
 .stButton > button:hover {
     background-color: #a07850 !important;
+    font-family: 'Press Start 2P', monospace !important;
 }
 
 
