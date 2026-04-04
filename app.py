@@ -100,9 +100,40 @@ input[type="number"] {
     color: #c9a97a;
     margin: 12px 0;
 }
+
+/* --- TITLE DECORATION MỚI --- */
+.title-container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.retro-line {
+    border-top: 4px dashed #c9a97a; /* Đường gạch viền nét đứt */
+    margin: 15px 0;
+}
+
+.retro-title {
+    font-family: 'Press Start 2P', monospace !important;
+    font-size: 22px !important;
+    color: #7a5c3a !important;
+    text-shadow: 2px 2px 0px #e4d2b3; /* Hiệu ứng bóng đổ 3D nhẹ chuẩn retro */
+    padding: 5px 0;
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<div class="title-container">
+    <div class="retro-line"></div>
+    <h1 class="retro-title">✦FACTORIAL CALCULATOR✦</h1>
+    <div class="retro-line"></div>
+</div>
+</style>
+""", unsafe_allow_html=True)
 
 def main(): 
     number = st.number_input("Enter a number: ",
